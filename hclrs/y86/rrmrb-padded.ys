@@ -1,0 +1,5 @@
+mrmovq 1(%r8), %rax
+mrmovq (%r9), %r10
+rmmovq %rax, 160(%rax)
+mrmovq (%r9), %r10
+mrmovq 158(%rax), %rdx

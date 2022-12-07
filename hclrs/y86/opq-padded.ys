@@ -1,0 +1,29 @@
+irmovq $7, %rdx # d =  7  00..00111
+nop
+nop
+nop
+irmovq $3, %rcx # c =  3  00..00011
+nop
+nop
+nop
+addq %rcx, %rbx # b =  3  00..00011
+nop
+nop
+nop
+subq %rdx, %rcx # c = -4  11..11100
+nop
+nop
+nop
+andq %rdx, %rbx # b =  3  00..00011
+nop
+nop
+nop
+xorq %rcx, %rdx # d = -5  11..11011
+nop
+nop
+nop
+andq %rdx, %rsi # s = 0
+nop
+nop
+nop
+halt

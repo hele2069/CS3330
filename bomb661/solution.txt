@@ -1,0 +1,4 @@
+Anyone who does not use scripts for everything does not yet know how.
+Anyone who does not use scripts for everything does not yet know how.
+3 6 12 24 48 96
+h 3 123

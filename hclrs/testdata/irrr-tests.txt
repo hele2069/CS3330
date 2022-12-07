@@ -1,0 +1,14 @@
+halt.yo+category=nophalt,ignore_regs
+nophalt.yo+category=nophalt,ignore_regs
+jmp.yo+category=jmp,ignore_regs
+halt.yo+category=nophalt
+nophalt.yo+category=nophalt
+jmp.yo+category=jmp
+basic.yo+category=irmovq,ignore_rax
+basic.yo+category=irmovq
+irmovq.yo+category=irmovq,ignore_rax
+irmovq.yo+category=irmovq
+irmovq-norcxrax.yo+category=irmovq,ignore_rax
+irmovq-norcxrax.yo+category=irmovq
+rrmovq.yo+category=irmovqrrmovq
+prog8.yo+category=irmovqrrmovq

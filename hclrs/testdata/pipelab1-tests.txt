@@ -1,0 +1,9 @@
+halt.yo+category=cycle-count,ignore_regs,ignore_memory
+basic.yo+category=cycle-count,ignore_regs,ignore_memory
+irrr7.yo+category=cycle-count,ignore_regs,ignore_memory
+irrr7b.yo+category=cycle-count,ignore_regs,ignore_memory
+rrmovq.yo+category=cycle-count,ignore_regs,ignore_memory
+basic.yo+category=irmovq
+irrr7.yo+category=rrmovq-forward
+irrr7b.yo+category=rrmovq-forward
+rrmovq.yo+category=rrmovq

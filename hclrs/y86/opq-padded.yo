@@ -1,0 +1,29 @@
+0x000: 30f20700000000000000 | irmovq $7, %rdx # d =  7  00..00111
+0x00a: 10                   | nop
+0x00b: 10                   | nop
+0x00c: 10                   | nop
+0x00d: 30f10300000000000000 | irmovq $3, %rcx # c =  3  00..00011
+0x017: 10                   | nop
+0x018: 10                   | nop
+0x019: 10                   | nop
+0x01a: 6013                 | addq %rcx, %rbx # b =  3  00..00011
+0x01c: 10                   | nop
+0x01d: 10                   | nop
+0x01e: 10                   | nop
+0x01f: 6121                 | subq %rdx, %rcx # c = -4  11..11100
+0x021: 10                   | nop
+0x022: 10                   | nop
+0x023: 10                   | nop
+0x024: 6223                 | andq %rdx, %rbx # b =  3  00..00011
+0x026: 10                   | nop
+0x027: 10                   | nop
+0x028: 10                   | nop
+0x029: 6312                 | xorq %rcx, %rdx # d = -5  11..11011
+0x02b: 10                   | nop
+0x02c: 10                   | nop
+0x02d: 10                   | nop
+0x02e: 6226                 | andq %rdx, %rsi # s = 0
+0x030: 10                   | nop
+0x031: 10                   | nop
+0x032: 10                   | nop
+0x033: 00                   | halt
